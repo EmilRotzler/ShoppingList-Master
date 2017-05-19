@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:context="org.projects.shoppinglist.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/item_clear"
+        android:icon="@drawable/clear"
+        android:orderInCategory="2"
+        android:title="Clear all"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/item_share"
+        android:icon="@drawable/share"
+        android:orderInCategory="3"
+        android:title="Share list"
+        app:showAsAction="always"/>
+
+
+</menu>
